@@ -1,0 +1,146 @@
+html {
+  background-color: aliceblue;
+}
+header,
+header div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.buttons {
+  background-color: rgb(241, 241, 241);
+  width: 960px;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.sub-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 110px;
+  margin: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.join-button {
+  background-color: white;
+  color: rgb(0, 100, 255);
+  border: solid 1.5px;
+  height: 40px;
+  width: 70px;
+  margin: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tweet-button {
+  background-color: rgb(83, 155, 248);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 85px;
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 120px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.signup-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.getstarted-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 115px;
+  margin: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.download-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border: solid 1.5px;
+  height: 40px;
+  width: 100px;
+  margin: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 225px;
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: solid 1.5px;
+  height: 40px;
+  width: 85px;
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
