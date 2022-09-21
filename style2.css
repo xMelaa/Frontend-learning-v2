@@ -1,0 +1,22 @@
+.texts {
+  width: 960px;
+  background-color: azure;
+  font-family: Arial;
+}
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.video-stats,
+.video-author,
+.video-description {
+  font-size: 14px;
+  color: rgb(95, 95, 95);
+  margin-bottom: 20px;
+  margin-top: 0;
+  width: 280px;
+  line-height: 20px;
+}
