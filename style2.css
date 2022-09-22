@@ -93,6 +93,16 @@
   width: 200px;
 }
 
+.google-button{
+  background-color: rgb(221, 221, 221);
+  border: none;
+  padding: 10px 15px;
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
 .s3 {
   padding: 10px;
   padding-left: 15px;
@@ -124,8 +134,12 @@
 .tweetdiv {
   margin: 50px 0px;
   background-color: white;
-  width: 960px;
+  width: 560px;
   padding: 10px 0;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px gray;
 }
 
 .cat4 {
@@ -219,4 +233,100 @@
   padding: 15px 20px;
   margin-top: 30px;
   display: inline-block;
+}
+
+.divs{
+  background-color: white;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-family: Arial;
+}
+.red-square{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  display: inline-block;
+}
+
+.green-circle{
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 25px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.satisfied{
+  background-color: white;
+  border: solid 1px;
+  border-color: lightgrey;
+  width: 300px;
+  padding: 20px;
+  display: inline-block;
+}
+.satisfied p{
+  margin-top: 0px;
+}
+
+.yt-music{
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 15px 25px;
+  width: 350px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.yt-music-title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.yt-music-description{
+  color: rgb(161, 161, 161);
+  font-size: 16px;
+}
+
+.pet-friend{
+  width: 150px;
+  height: 260px;
+  background-color: white;
+  box-shadow: 0 0 8px rgb(189, 189, 189);
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  
+}
+
+.pet-name{
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 8px 6px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mutual-friends{
+  margin-top: 0px;
+  margin-bottom: 12px;
+  padding-left: 6px;
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+  
+}
+
+.add-friend{
+  background-color: rgb(0, 132, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-left: 6px;
+  cursor: pointer;
 }

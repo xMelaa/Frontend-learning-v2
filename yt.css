@@ -4,7 +4,8 @@
 }
 .search-bar{
    font-size: 20px;
-   margin-left: 12px; 
+   margin-left: 12px;
+   display: block; 
 }
 .video-title {
     font-weight: bold;
@@ -21,4 +22,10 @@
     margin-top: 0;
     width: 280px;
     line-height: 20px;
+  }
+  .video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
   }
