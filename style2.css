@@ -1,7 +1,11 @@
 .texts {
-  width: 960px;
+  width: 360px;
   background-color: azure;
   font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 .video-title {
   font-weight: bold;
@@ -19,4 +23,112 @@
   margin-top: 0;
   width: 280px;
   line-height: 20px;
+}
+
+.images{
+  background-color: lavender;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+}
+.cat1{
+width: 200px;
+border-radius: 15px;
+margin-right: 30px;
+}
+
+.cat2{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.cat3{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 75px;
+}
+.textboxes{
+  background-color: ivory;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.s1{
+  padding: 10px;  
+  border: solid 1px;
+  border-color: rgb(199, 199, 199);
+  border-radius: 8px;
+}
+
+.s2{
+  padding: 10px;
+  padding-left: 15px;
+  border: none;
+  width: 350px;
+  border-color: rgb(199, 199, 199);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+}
+
+.s3{
+  padding: 10px;
+  padding-left: 15px;
+  border: solid 2px;
+  border-color: rgb(24, 24, 24);
+  width: 350px;
+  border-color: rgb(199, 199, 199);
+  border-radius: 5px;
+ 
+}
+.label{
+  margin-top: 50px;
+  margin-right: 325px;
+  margin-bottom: 10px;
+  color: rgb(100, 100, 100);
+}
+
+.disclaimer{ 
+  margin-bottom: 15px;
+  color: rgb(100, 100, 100);
+}
+.agreejoin-button{
+  background-color: rgb(4, 100, 224);
+  color: white;
+  padding: 15px 100px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.tweetdiv{
+  margin: 50px 0px;
+  background-color: white;
+  width: 960px;
+  padding: 10px 0;
+}
+
+.cat4{
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 75px;
+  vertical-align: middle;
+}
+.s4{
+  border: none;
+  width: 300px;
+  padding: 15px 15px;
+  font-size: 18px;
+  vertical-align: middle;
+  
 }
