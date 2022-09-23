@@ -29,7 +29,7 @@ p{
     width: 280px;
     line-height: 20px;   
   }
-  
+
   .video-preview{
     width: 300px;
     display: inline-block;
@@ -45,11 +45,13 @@ p{
     display: inline-block;
     width: 50px;
     vertical-align: top;
+    
   }
 
   .video-info{
     display: inline-block;
-    width: 200px;
+    width: 245px;
+    
   }
 
   .profile-photo{
