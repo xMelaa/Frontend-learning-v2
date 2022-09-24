@@ -292,16 +292,25 @@
   color: rgb(161, 161, 161);
   font-size: 16px;
 }
-
-.pet-friend{
-  width: 150px;
-  height: 260px;
+.pet-friends{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  align-items: center;
+  column-gap: 20px;
+}
+.pet-friend{  
+  width: 200px;
   background-color: white;
   box-shadow: 0 0 8px rgb(189, 189, 189);
-  display: inline-block;
   margin-top: 20px;
-  margin-right: 10px;
-  
+  margin-right: 10px;  
+}
+
+.cat5{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
 }
 
 .pet-name{
@@ -328,5 +337,6 @@
   border-radius: 4px;
   padding: 10px 15px;
   margin-left: 6px;
+  margin-bottom: 15px;
   cursor: pointer;
 }
