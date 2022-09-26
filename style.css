@@ -8,6 +8,9 @@ header div span {
   justify-content: center;
   padding: 15px;
 }
+body{
+  padding-bottom: 1000px;
+}
 
 .buttons {
   background-color: rgb(241, 241, 241);

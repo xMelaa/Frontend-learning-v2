@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, Arial;
+  margin: 0;
 }
 p {
   margin-top: 0;
@@ -8,11 +9,7 @@ p {
 .thumbnail {
   width: 100%;  
 }
-.search-bar {
-  font-size: 20px;
-  margin-left: 12px;
-  display: block;
-}
+
 .video-title {
   font-weight: 500;
   font-size: 14px;
@@ -54,3 +51,4 @@ p {
   column-gap: 15px;
   row-gap: 30px;
 }
+

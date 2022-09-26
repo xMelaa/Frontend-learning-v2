@@ -1,0 +1,29 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-bar {
+ 
+  
+}
+
+.left-section{
+    background-color: aquamarine;
+    width: 200px;
+}
+
+.middle-section{
+    background-color: bisque;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 300px;
+}
+
+.right-section{
+    background-color: darkgray;
+    width: 200px;
+}
