@@ -149,7 +149,6 @@
   margin-top: 30px;
   font-family: Arial;
   width: 350px;
-  
 }
 
 .notification-text {
@@ -157,45 +156,206 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10px;
-  vertical-align: middle;  
+  vertical-align: middle;
 }
 
 .number-of-notifications {
-    background-color: rgb(9, 106, 252);
-    color: white;
-    border: none;
-    border-radius: 15px;
-    padding: 4px 12px
+  background-color: rgb(9, 106, 252);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 12px;
 }
 
-.banner{
-    background-color: blueviolet;
-    height: 50px;
-    margin-top: 25px;  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
-    padding:6px 16px;
-    font-family: Arial;
+.banner {
+  background-color: blueviolet;
+  height: 50px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 16px;
+  font-family: Arial;
 }
 
-.left{
-    color: white;
-    font-weight: bold;
+.left {
+  color: white;
+  font-weight: bold;
 }
-.search-bar{
-    width: 500px;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
+.search-bar {
+  width: 500px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.right button{
-    background-color: transparent;
-    color: white;
-    border: solid 1px;
-    border-radius: 2px;
-    padding: 10px 15px;
-    cursor: pointer;
+.right button {
+  background-color: transparent;
+  color: white;
+  border: solid 1px;
+  border-radius: 2px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.column3 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+.row-item {
+  background-color: black;
+  color: white;
+}
+
+.inbox-notification {
+  background-color: white;
+  width: 400px;
+  font-family: Roboto, Arial;
+  border: solid 1px;
+  border-color: rgb(224, 224, 224);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.212);
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 15px 20px 40px 20px;
+}
+.all-inboxes {
+  color: gray;
+  font-size: 14px;
+}
+
+.notifi {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+}
+
+.notifi-info {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.cat6 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 75px;
+  vertical-align: middle;
+}
+.notifi-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.notifi-app {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.notifi-time {
+  font-size: 14px;
+  color: gray;
+}
+
+.notifi-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.notifi-text {
+  color: grey;
+}
+
+.post{
+  background-color: white;
+  width: 450px;
+  margin-top: 30px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.post-info{
+  margin-left: 10px;
+}
+.tweet-header{
+  display: flex;
+  align-items: center;
+}
+.person-info{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.nickname{
+  color: grey;
+  font-weight: normal;
+  margin-left: 8px;
+  display: flex;  
+}
+
+.text-info{
+  margin-top: 4px;
+}
+.yt-preview{
+  border: solid 1px;
+  border-color: rgb(202, 202, 202);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 350px;
+  margin-top: 20px;
+  overflow: hidden;
+  
+}
+.yt-info{  
+  flex: 1;
+}
+.yt-photo{
+  background-color: rgb(202, 202, 202);
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.yt-link{
+  color: gray;
+}
+
+.yt-title{
+  margin-top: 4px;
+  line-height: 22px;
 }

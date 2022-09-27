@@ -264,18 +264,21 @@
     <div class="flexboxes">
       <div class="flexbox">
         <div style="background-color: lightblue">div1 tekst tekst</div>
-        <div style="background-color: lightpink">div2 <p>tekst tekst</p> </div>
+        <div style="background-color: lightpink">
+          div2
+          <p>tekst tekst</p>
+        </div>
       </div>
 
       <div class="flexbox">
         <div style="background-color: lightblue; width: 100px">100px</div>
-        <div style="background-color: lightpink; flex: 1;">flex: 1 </div>
+        <div style="background-color: lightpink; flex: 1">flex: 1</div>
       </div>
 
       <div class="flexbox">
         <div style="background-color: lightblue; width: 100px">100px</div>
-        <div style="background-color: lightpink; flex: 1;">flex: 1</div>
-        <div style="background-color: lightblue; flex: 2;">flex 2</div>
+        <div style="background-color: lightpink; flex: 1">flex: 1</div>
+        <div style="background-color: lightblue; flex: 2">flex 2</div>
       </div>
 
       <div class="flex-header">
@@ -286,54 +289,137 @@
 
       <div class="flexbox">
         <div style="background-color: lightblue; width: 200px">200px</div>
-        <div style="background-color: lightpink; width: 75px">75px </div>
+        <div style="background-color: lightpink; width: 75px">75px</div>
       </div>
 
       <div class="flexbox">
         <div style="background-color: lightblue; width: 50px">item1</div>
-        <div style="background-color: lightpink; flex: 1;">item2</div>
-        <div style="background-color: lightblue; width: 75px;">item3</div>
+        <div style="background-color: lightpink; flex: 1">item2</div>
+        <div style="background-color: lightblue; width: 75px">item3</div>
       </div>
 
-      <div class="flexbox" style="justify-content:space-between;">
-        <div style="background-color: lightblue;">item1</div>
-        <div style="background-color: lightpink; ">item2</div>
-        <div style="background-color: lightblue; ">item3</div>
-        <div style="background-color: lightpink;">item4</div>
+      <div class="flexbox" style="justify-content: space-between">
+        <div style="background-color: lightblue">item1</div>
+        <div style="background-color: lightpink">item2</div>
+        <div style="background-color: lightblue">item3</div>
+        <div style="background-color: lightpink">item4</div>
       </div>
 
-      <div class="flex-header" style="height: 50px;">
-        <div style="background-color: lightblue; ">item1</div>
-        <div style="background-color: lightpink; ">item2</div>
+      <div class="flex-header" style="height: 50px">
+        <div style="background-color: lightblue">item1</div>
+        <div style="background-color: lightpink">item2</div>
       </div>
 
       <div class="notifications">
-        <div class="notification-text">Home
-          <div class="number-of-notifications">
-            14
-          </div>
+        <div class="notification-text">
+          Home
+          <div class="number-of-notifications">14</div>
         </div>
-        <div class="notification-text">Notifications
-          <div class="number-of-notifications">
-            3
-          </div>
+        <div class="notification-text">
+          Notifications
+          <div class="number-of-notifications">3</div>
         </div>
-        <div class="notification-text">Messages
-          <div class="number-of-notifications">
-            5
-          </div>
+        <div class="notification-text">
+          Messages
+          <div class="number-of-notifications">5</div>
         </div>
       </div>
 
       <div class="banner">
         <div class="left">Home</div>
         <div class="middle">
-          <input class="search-bar" type="text" placeholder="Search"/>
+          <input class="search-bar" type="text" placeholder="Search" />
         </div>
         <div class="right">
-          <button>
-            Download
-          </button>
+          <button>Download</button>
+        </div>
+      </div>
+
+      <div class="flexbox" style="display: flex; height: 50px">
+        <div class="column1">
+          <div class="item1">item1</div>
+        </div>
+
+        <div class="column2"></div>
+      </div>
+
+      <div class="flexbox" style="display: flex; height: 50px">
+        <div class="column3"></div>
+
+        <div class="column2">
+          <div class="row1">row1</div>
+          <div class="row2">
+            <div class="row-item">row2</div>
+            <div class="row-item">row2</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="inbox-notification">
+        <div class="all-inboxes">ALL INBOXES</div>
+        <div class="notifi">
+          <div class="prof-picture"><img class="cat6" src="img/cat.jpg" /></div>
+          <div class="notifi-info">
+            <div class="notifi-header">
+              <div class="notifi-app">Chewy Promotions</div>
+              <div class="notifi-time">4:58 PM</div>
+            </div>
+            <div class="notifi-title">Biggest sales of the year!</div>
+            <div class="notifi-text">
+              Hi there! We're writing to tell you about our...
+            </div>
+          </div>
+        </div>
+        <div class="notifi">
+          <div class="prof-picture"><img class="cat6" src="img/cat.jpg" /></div>
+          <div class="notifi-info">
+            <div class="notifi-header">
+              <div class="notifi-app">Best Buy</div>
+              <div class="notifi-time">12:32 PM</div>
+            </div>
+            <div class="notifi-title">Your Best Buy eReceipt</div>
+            <div class="notifi-text">
+              Thank you for shopping at Best Buy, here is...
+            </div>
+          </div>
+        </div>
+        <div class="notifi">
+          <div class="prof-picture"><img class="cat6" src="img/cat.jpg" /></div>
+          <div class="notifi-info">
+            <div class="notifi-header">
+              <div class="notifi-app">Netflix</div>
+              <div class="notifi-time">9:00 AM</div>
+            </div>
+            <div class="notifi-title">Here's what's coming soom to Netflix</div>
+            <div class="notifi-text">
+              Brand new movies and shows, old favorites...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="profile-picture">
+          <img class="cat6" src="img/cat.jpg" />
+        </div>
+        <div class="post-info">
+          <div class="tweet-header">
+            <div class="person-info">supersimple.dev</div>
+            <div class="nickname">@SuperSimpleDev</div>
+          </div>
+          <div class="text-info">
+            What is backend web development? A complete overview. New video is
+            up!
+          </div>
+          <div class="yt-preview">
+            <div class="yt-photo"></div>
+            <div class="yt-info">
+              <div class="yt-link">youtube.com</div>
+              <div class="yt-title">
+                Backend we development - a complete overview (2021)
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
