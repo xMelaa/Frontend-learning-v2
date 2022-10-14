@@ -11,7 +11,8 @@
   border-bottom-width: 1px;
   border-bottom-color: rgb(230, 230, 230);
   border-bottom-style: solid;
-  }
+  z-index: 100;
+}
 
 .search-bar {
   flex: 1;
@@ -93,4 +94,18 @@
 .my-channel-photo {
   height: 32px;
   border-radius: 32px;
+}
+.notifi-container {
+  position: relative;
+}
+
+.notifi-counter {
+  position: absolute;
+  top: 2px;
+  right: -7px;
+  background-color: rgb(199, 0, 0);
+  color: white;
+ font-size: 11px;
+ padding: 2px 6px;
+ border-radius: 10px;
 }
